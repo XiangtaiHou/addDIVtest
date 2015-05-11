@@ -2,13 +2,14 @@
 	
 
 <head>
+<title>TEST PAGE</title>
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 
 
 <script>
 $(document).ready(function(){
 
-  $("#addcategory").click(function(){
+  $(".addcategory").click(function(){
     $("ol").append("<li id=\"ha\"> hahha </li>");
   });
 
@@ -46,7 +47,9 @@ $(document).ready(function(){
 		</div>
 	</div>
 
-
+<div class="all-elements">
+	<ul class='categories'>
+			<li class='category-1'>
 <div id="category">
 	<div id="category-tag">
 		<div id="category-l1">
@@ -64,7 +67,7 @@ $(document).ready(function(){
 		</ol>
 
 
-		<button id="addcategory">add category</button>
+		<button class="addcategory">add category</button>
 		<button id="btn1">remove category</button>
 
 
@@ -72,6 +75,36 @@ $(document).ready(function(){
 
 
 </div>
+		</li>
+		<br>
+			<li class='category-1'>
+<div id="category">
+	<div id="category-tag">
+		<div id="category-l1">
+			<b id="category-name">Redfish</b>
+			<b id="category-num">3</b>
+		</div>
+		<div id="category-l2">
+			<p id="category-description">These baits have been selected based on your profile, location, and time of year.</p>
+		</div>
+	</div>
+	<div id="category-item">
+
+		<ol>
+			<li>List item</li>
+		</ol>
+
+
+		<button class="addcategory">add category</button>
+		<button id="btn1">remove category</button>
+
+
+	</div>
+
+
+</div>
+		</li>
+	</ul>
 
 		<div class='footer'>
 			<div class='footer-text'>
@@ -84,6 +117,7 @@ $(document).ready(function(){
 			<div class='shipment-timer'>
 			</div>
 		</div>
+</div>
 
 </div>
 
