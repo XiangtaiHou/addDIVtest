@@ -19,19 +19,33 @@ $(document).ready(function(){
 
 
 </script>
+
+<style>
+
+#wholepage {
+	width:320px;
+	margin:0 auto;
+}
+
+
+
+</style>
 </head>
 
 
 
 <body>
 
-<div data-role='page'>
+<div data-role='page' id="wholepage">
+	<div align="center" class="confirmation">
+		<img src="logo.png" width="320" alt="broken">
+	</div>
 
 	<div data-role='header' class="header">
 
 		<a href='#' class='main-logo'></a>
 
-		<div class="header-message">
+<!-- 		<div class="header-message">
 			<h1 class='preview-title'>Preview Your Next Shipment</h1>
 			<h3 class='preview-body'> You have 48 hours to make changes before we ship your package </h3>
 			<div class="inner-message">
@@ -44,11 +58,27 @@ $(document).ready(function(){
 					<p>Hi Ross! Here's what I have for you this month. Feel free to add or remove items!</p>
 				</div>
 			</div>
+		</div> -->
+
+		<div id="previewDescription" class="confirmation">
+			<p align="center" style="font-size:16px;"> <span align="center" style="font-size:24px;">Preview your next shipment</span> <br>You have 48 hours to make changes<br> before we ship your package.</p>
+		</div> 
+
+		<div id="testimonial" class="testimonial">
+			<div id= "idphoto" style="float: left; width:85px; height:96px;background-color:#ebebeb;"></div>
+			<div id= "idtesti" style="float: left; width:235px; height:96px;background-color:#ebebeb;">
+				<br>
+				<span style="font-size: 18px; color: black;" class="wysiwyg-font-type-trebuchet  wysiwyg-color-8a8a8a wysiwyg-align-Left"f>MATT SAYS...</span>
+				<br>
+				<span style="font-size: 14px;">Hi Ross! Here's what I have for you this month. Feel free to add or remove items.</span>
+			</div>
 		</div>
 	</div>
+	<br><br><br><br><br><br>
+
 
 <div class="all-elements">
-	<ul class='categories'>
+	<ul class='categories' style="list-style:none; padding:0px">
 			<li class='category-1'>
 <div id="category">
 	<div id="category-tag">
