@@ -1,0 +1,233 @@
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Mystery Tackle Box</title>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript">src='jquery.mobile.custom/jquery.mobile.custom.js'</script>
+   	<script type="text/javascript">src='jquery.mobile.custom/jquery.mobile.custom.min.js'</script>
+    <link href="jquery.mobile.custom/jquery.mobile.custom.min.js/jquery.mobile.custom.structure.css" rel="stylesheet" type="text/css">
+    <link href="jquery.mobile.custom/jquery.mobile.custom.min.js/jquery.mobile.custom.structure.min.css" rel="stylesheet" type="text/css">
+    <link href="jquery.mobile.custom/jquery.mobile.custom.min.js/jquery.mobile.theme.css" rel="stylesheet" type="text/css">
+    <link href="jquery.mobile.custom/jquery.mobile.custom.min.js/jquery.mobile.custom.theme.min.css" rel="stylesheet" type="text/css">
+
+	<script>
+	$(document).ready(function(){
+	  $(".addcategory").click(function(){
+	    $("ol").append("<li id=\"ha\"> hahha </li>");
+	  });
+	});
+	</script>
+
+<style>
+
+#wholepage {
+	width:320px;
+	margin: auto;
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+<div data-role='page' id="pageone">
+	
+	<div align="center" class="confirmation">
+		<img src="images/logo.png" width="320" alt="broken">
+	</div>
+
+
+
+	<div data-role='header' class="header">
+<!-- 		<a href='#' class='main-logo'></a>
+		<div class="header-message">
+			<h1 class='preview-title'>Preview Your Next Shipment</h1>
+			<h3 class='preview-body'> You have 48 hours to make changes before we ship your package </h3>
+			<div class="inner-message">
+				<div class='profile-photo'>
+				</div>
+				<div class='inner-message-title'>
+					<p> MATT SAYS... </p>
+				</div>
+				<div class='inner-message-body'>
+					<p>Hi Ross! Here's what I have for you this month. Feel free to add or remove items!</p>
+				</div>
+			</div>
+		</div> -->
+
+		<div id="previewDescription" class="confirmation">
+			<p align="center" style="font-size:16px;"> <span align="center" style="font-size:24px;">Preview your next shipment</span> <br>You have 48 hours to make changes<br> before we ship your package.</p>
+		</div> 
+<!-- 		<div id="testimonial" class="testimonial">
+			<div id= "idphoto" style="float: left; width:85px; height:96px;background-color:#ebebeb;"></div>
+			<div id= "idtesti" style="float: left; width:235px; height:96px;background-color:#ebebeb;">
+				<br>
+				<span style="font-size: 18px; color: black;" class="wysiwyg-font-type-trebuchet  wysiwyg-color-8a8a8a wysiwyg-align-Left"f>MATT SAYS...</span>
+				<br>
+				<span style="font-size: 14px;">Hi Ross! Here's what I have for you this month. Feel free to add or remove items.</span>
+			</div>
+		</div> -->
+	</div>
+	<br><br><br><br><br><br>
+
+	<div class="all-elements">
+		<ul class='categories' style="list-style:none; padding:10px">
+			<li class='category-1'>
+				<div id="category">
+					<div id="category-tag">
+						<div id="category-l1">
+							<b id="category-name">Largemouth Bass</b>
+							<b id="category-num">6</b>
+						</div>
+						<div id="category-l2">
+							<p id="category-description">These baits have been selected based on your profile, location, and time of year.</p>
+						</div>
+					</div>
+					<div id="category-item">
+						<ol>
+							<li>List item</li>
+						</ol>
+						<button class="addcategory">add category</button>
+						<button id="btn1">remove category</button>
+					</div>
+				</div>
+			</li>
+			<br>
+			<li class='category-1'>
+				<div id="category">
+					<div id="category-tag">
+						<div id="category-l1">
+							<b id="category-name">Redfish</b>
+							<b id="category-num">3</b>
+						</div>
+						<div id="category-l2">
+							<p id="category-description">These baits have been selected based on your profile, location, and time of year.</p>
+						</div>
+					</div>
+					<div id="category-item">
+						<ol>
+							<li>List item</li>
+						</ol>
+						<button class="addcategory">add category</button>
+						<button id="btn1">remove category</button>
+					</div>
+				</div>
+			</li>
+			<br>
+			<li class='category-1'>
+				<div id="category">
+					<div id="category-tag">
+						<div id="category-l1">
+							<b id="category-name">Species in your shipment</b>
+							<b id="category-num"></b>
+						</div>
+						<div id="category-l2">
+							<p id="category-description">no finished</p>
+						</div>
+					</div>
+					<div id="category-item">
+							<br><br><br><br><br>
+					</div>
+				</div>
+			</li>
+			<br>
+			<li class='category-1'>
+				<div id="category">
+					<div id="category-tag">
+						<div id="category-l1">
+							<b id="category-name">Add Species...</b>
+							<b id="category-num"></b>
+						</div>
+						<div id="category-l2">
+							<p id="category-description">Popular species in your area...</p>
+						</div>
+					</div>
+					<div id="category-item">
+						<ol>
+							<li>List item</li>
+														<li>List item</li>
+																					<li>List item</li>
+						</ol>
+
+					</div>
+				</div>
+			</li>
+
+		</ul>
+		<div class='footer'>
+			<div class='footer-text'>
+
+
+			<div data-role="main" class="ui-content">
+				<p>- Free return shipping on all items in this shipment.</p>
+				<p>- Save up to 25% on all items in this shipment.</p>
+				<a href="#pagetwo" class="ui-btn">Confirm!</a>
+			</div>
+
+			</div>
+			<div class='shipment-timer'>
+					<p style="font-family: Arial; font-size: 24px;">
+						<span style="color: rgb(0, 0, 0);"><span style="font-weight: bold;">24hrs 37m</span> to confirm</span></p>
+						<p class="uxp-align-center">OR</p>
+						
+						<span style="color: rgb(117, 117, 117);">Skip this month</span>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</div>
+
+<div data-role="page" id="pagetwo">
+	<div align="center" class="confirmation">
+		<img src="images/logo.png" width="320" alt="broken">
+	</div>
+  <div data-role="header">
+		<div id="previewDescription" class="confirmation">
+			<p align="center" style="font-size:16px;"> <span align="center" style="font-size:24px;">Preview your next shipment</span> <br>You have 48 hours to make changes<br> before we ship your package.</p>
+		</div> 
+<!-- 		<div id="testimonial" class="testimonial">
+			<div id= "idphoto" style="float: left; width:85px; height:96px;background-color:#ebebeb;"></div>
+			<div id= "idtesti" style="float: left; width:235px; height:96px;background-color:#ebebeb;">
+				<br>
+				<span style="font-size: 18px; color: black;" class="wysiwyg-font-type-trebuchet  wysiwyg-color-8a8a8a wysiwyg-align-Left"f>MATT SAYS...</span>
+				<br>
+				<span style="font-size: 14px;">Hi Ross! Here's what I have for you this month. Feel free to add or remove items.</span>
+			</div>
+		</div> -->
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Confirmed pagehahahha</p>
+    <a href="#pageone" class="ui-btn">Return back</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div> 
+
+
+
+
+</body>
+</html>
